@@ -25,6 +25,10 @@ params:
     subtitle: >
       Data Scientist with 3+ years building machine-learning, LLM, and
       Generative-AI solutions across finance, supply chain, and tech.
+    imageUrl: "avatar.jpg"
+    imageTitle: "Dipankar Nath"
+    imageWidth: 150
+    imageHeight: 150
     buttons:
       - name: Resume
         url: /resume/

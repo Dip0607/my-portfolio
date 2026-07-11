@@ -1,0 +1,57 @@
+{{- define "main" }}
+
+{{- /* Keep PaperMod's profile hero */}}
+{{- partial "index_profile.html" . }}
+
+{{- /* ---- Custom extras below the hero ---- */}}
+<style>
+  .hx { max-width:860px; margin:10px auto 40px; padding:0 16px; }
+  .hx h3 { text-align:center; color:var(--primary); font-size:1.1rem;
+           text-transform:uppercase; letter-spacing:.6px; margin:30px 0 16px; }
+  .hx-skills { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+  .hx-chip { background:var(--tertiary); color:var(--primary); font-size:.85rem;
+             font-weight:600; padding:6px 13px; border-radius:20px; border:1px solid rgba(128,128,128,.25); }
+  .hx-feat { margin-top:14px; border:1px solid rgba(90,169,240,.35);
+             border-radius:14px; padding:20px 22px;
+             background:linear-gradient(145deg,rgba(90,169,240,.10),rgba(90,169,240,.02)); }
+  .hx-feat .tag { display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.5px;
+                  color:#fff; background:#2c6fb0; padding:3px 10px; border-radius:20px; text-transform:uppercase; }
+  .hx-feat h4 { margin:10px 0 6px; font-size:1.25rem; color:var(--primary); }
+  .hx-feat p { margin:0 0 12px; color:var(--secondary); font-size:.95rem; line-height:1.5; }
+  .hx-badges { display:flex; flex-wrap:wrap; gap:7px; margin-bottom:14px; }
+  .hx-badges span { background:#2c6fb0; color:#fff; font-size:.78rem; font-weight:700;
+                    padding:3px 10px; border-radius:20px; }
+  .hx-feat a.more { color:#2c6fb0; font-weight:600; text-decoration:none; font-size:.9rem; }
+</style>
+
+<div class="hx">
+  <h3>Core Skills</h3>
+  <div class="hx-skills">
+    <span class="hx-chip">Python</span>
+    <span class="hx-chip">LLMs &amp; RAG</span>
+    <span class="hx-chip">Graph-RAG</span>
+    <span class="hx-chip">LangChain</span>
+    <span class="hx-chip">LlamaIndex</span>
+    <span class="hx-chip">AutoGen</span>
+    <span class="hx-chip">Azure AI</span>
+    <span class="hx-chip">Google Cloud</span>
+    <span class="hx-chip">PySpark</span>
+    <span class="hx-chip">Machine Learning</span>
+    <span class="hx-chip">Power BI · Looker · Qlik</span>
+  </div>
+
+  <h3>Featured Project</h3>
+  <div class="hx-feat">
+    <span class="tag">Graph-RAG · 2025</span>
+    <h4>CodeWiki Bot — AI Documentation &amp; Chat Over a Codebase</h4>
+    <p>An AI assistant that sits on top of the codebase — answering natural-language
+       questions and auto-generating cross-repo dataflow &amp; architecture diagrams,
+       powered by a Graph-RAG engine.</p>
+    <div class="hx-badges">
+      <span>12 repos</span><span>12k+ docs</span><span>−80% knowledge-hunt time</span>
+    </div>
+    <a class="more" href="/posts/codewiki-bot/">Read the write-up →</a>
+  </div>
+</div>
+
+{{- end }}
