@@ -9,7 +9,7 @@ ShowBreadCrumbs: false
 ## Dipankar Nath
 **Data Scientist / Decision Science Analyst**
 
-📍 Kolkata, India · ✉️ [dipankar2149@gmail.com](mailto:dipankar2149@gmail.com) · 📞 +91-8638691118
+📍 Kolkata, India · ✉️ [dipankar2149@gmail.com](mailto:dipankar2149@gmail.com) · 📞 +91-9531248577
 🔗 [GitHub](https://github.com/Dip0607) · [LinkedIn](https://linkedin.com/in/dipankarnath67/) · [Website](https://dipankarnath.databrain.workers.dev)
 
 [📄 Download PDF Resume](/dipankar_nath_resume.pdf)
@@ -41,8 +41,9 @@ Data Scientist with **3+ years** of experience building **machine learning, LLM,
 **Accenture Strategy & Consulting (Global Network)** · 2022 – Present
 
 **Recent Highlights (2025)**
-<!-- TODO: replace/extend with your newest 2025 projects -->
-- *Add your latest 2025 project here — e.g. brownfield AI context-layer pilot for financial flows.*
+- **SRE Agents (AI-native reliability):** Built autonomous SRE agents that triage incidents, correlate logs/alerts, and suggest remediations — cutting mean-time-to-resolution (MTTR) by ~**[X]%** and reducing manual on-call toil by ~**[X]** hours/week. *(confirm numbers)*
+- **AI-Native SDLC:** Delivered an AI-assisted software-development-lifecycle workflow (spec → code → review → docs) that accelerated feature delivery by ~**[X]%** and cut code-review effort by ~**[X]%**. *(confirm numbers)*
+- **CodeWiki Bot (GraphRAG code intelligence):** Built an AI-powered documentation + chatbot over the codebase using a **Graph-RAG** engine — auto-generates cross-repo dataflow/architecture diagrams and answers natural-language questions across **[N]** repositories / **12,000+** indexed documents. Reduced developer onboarding/knowledge-hunt time by ~**[X]%**. *(confirm numbers)*
 
 **Key Projects & Achievements**
 - Built a **ServiceNow agentic bot** (LlamaIndex + OpenAI) for automated IT-ticket resolution, cutting manual intervention **40%**.
