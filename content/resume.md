@@ -10,7 +10,7 @@ ShowBreadCrumbs: false
 **Data Scientist / Decision Science Analyst**
 
 📍 Kolkata, India · ✉️ [dipankar2149@gmail.com](mailto:dipankar2149@gmail.com) · 📞 +91-8638691118
-🔗 [GitHub](https://github.com/Dip0607) · [LinkedIn](https://linkedin.com/in/dipankarnath67/) · [Website](https://dipankarnath.pages.dev)
+🔗 [GitHub](https://github.com/Dip0607) · [LinkedIn](https://linkedin.com/in/dipankarnath67/) · [Website](https://dipankarnath.databrain.workers.dev)
 
 [📄 Download PDF Resume](/dipankar_nath_resume.pdf)
 
