@@ -1,0 +1,48 @@
+baseURL: "https://example.pages.dev/"
+languageCode: en-us
+defaultContentLanguage: en
+title: "Dipankar Nath"
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+
+params:
+  # ----- Home page shows a profile/resume card -----
+  homeInfoParams:
+    Title: "Dipankar Nath"
+    Content: >
+      Data Scientist & Analyst. I build business-intelligence solutions,
+      machine-learning models, and LLM-powered tools. This is my resume +
+      tech blog — notes on data science, AI, and things I build.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/YOUR_USERNAME"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/YOUR_PROFILE"
+    - name: email
+      url: "mailto:you@example.com"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 10
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 20
+
+# Needed so raw HTML / SVG diagrams render inside blog posts
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
