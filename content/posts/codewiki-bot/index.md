@@ -1,6 +1,6 @@
 ---
 title: "CodeWiki Bot — AI-Powered Documentation & Chat Over a Codebase"
-date: 2025-11-18
+date: 2026-05-18
 draft: false
 tags: ["graphrag", "llm", "rag", "developer-tools", "ai"]
 cover:
