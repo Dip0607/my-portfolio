@@ -6,3 +6,6 @@ resources/_gen/
 # OS / editor junk
 .DS_Store
 Thumbs.db
+
+# Wrangler
+.wrangler/
