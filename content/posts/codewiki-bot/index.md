@@ -4,8 +4,9 @@ date: 2025-11-18
 draft: false
 tags: ["graphrag", "llm", "rag", "developer-tools", "ai"]
 cover:
-  image: "images/codewiki-bot.png"
+  image: "codewiki-bot.png"
   alt: "CodeWiki Bot — AI-Powered Documentation Intelligence dashboard"
+  relative: true
 ---
 
 **CodeWiki Bot** is an AI-powered documentation and chat assistant that sits on
@@ -13,7 +14,7 @@ top of a codebase. Instead of hunting through repos and outdated wikis,
 developers just *ask* — and get grounded answers, cross-repo dataflow
 diagrams, and architecture context on demand.
 
-![CodeWiki Bot dashboard](images/codewiki-bot.png)
+![CodeWiki Bot dashboard](codewiki-bot.png)
 
 ## What it does
 

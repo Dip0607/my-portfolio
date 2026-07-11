@@ -8,14 +8,28 @@ enableRobotsTXT: true
 buildDrafts: false
 
 params:
-  # ----- Home page shows a profile/resume card -----
-  homeInfoParams:
-    Title: "Dipankar Nath"
-    Content: >
+  # Nice default: dark theme, wide content, reading time, Toc
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  ShowPostNavLinks: true
+  hideFooter: false
+
+  # ----- Profile-mode home page: centered hero + buttons (looks great) -----
+  profileMode:
+    enabled: true
+    title: "Dipankar Nath"
+    subtitle: >
       Data Scientist with 3+ years building machine-learning, LLM, and
       Generative-AI solutions across finance, supply chain, and tech.
-      This is my resume + tech blog — notes on data science, AI, and
-      things I build.
+    buttons:
+      - name: Resume
+        url: /resume/
+      - name: Blog
+        url: /posts/
 
   socialIcons:
     - name: github
@@ -24,12 +38,6 @@ params:
       url: "https://www.linkedin.com/in/dipankarnath67/"
     - name: email
       url: "mailto:dipankar2149@gmail.com"
-
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
 
 menu:
   main:
