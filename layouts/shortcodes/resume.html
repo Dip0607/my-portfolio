@@ -1,0 +1,144 @@
+{{/* Custom resume layout — modern, visual, dark-mode aware */}}
+<style>
+  .rz { --acc:#2c6fb0; --acc2:#0b3d66; --mut:var(--secondary); max-width:900px; margin:0 auto; }
+  .dark .rz { --acc:#5aa9f0; --acc2:#8ec5ff; }
+
+  .rz-hero { text-align:center; padding:8px 0 18px; border-bottom:2px solid var(--acc); margin-bottom:22px; }
+  .rz-hero h1 { font-size:2.2rem; margin:0; color:var(--acc2); letter-spacing:1px; }
+  .rz-hero .role { font-size:1.15rem; color:var(--acc); font-weight:600; margin:4px 0 10px; }
+  .rz-contact { display:flex; flex-wrap:wrap; gap:8px 16px; justify-content:center; font-size:.9rem; }
+  .rz-contact a { color:var(--acc); text-decoration:none; }
+  .rz-dl { display:inline-block; margin-top:12px; padding:8px 18px; background:var(--acc);
+           color:#fff !important; border-radius:8px; font-weight:600; font-size:.9rem; }
+
+  .rz h2 { font-size:1.15rem; text-transform:uppercase; letter-spacing:.6px; color:var(--acc2);
+           border-left:4px solid var(--acc); padding-left:10px; margin:26px 0 14px; }
+
+  .rz-summary { font-size:1rem; line-height:1.6; }
+
+  .rz-skills { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; }
+  .rz-skill { background:var(--code-bg,rgba(128,128,128,.08)); border-radius:10px; padding:12px 14px; }
+  .rz-skill .k { font-weight:700; color:var(--acc); font-size:.85rem; text-transform:uppercase; letter-spacing:.4px; }
+  .rz-skill .v { margin-top:4px; font-size:.92rem; }
+
+  .rz-job { font-size:1.15rem; font-weight:700; }
+  .rz-co { color:var(--acc); font-weight:600; }
+  .rz-date { float:right; font-size:.85rem; color:var(--mut); }
+
+  .rz-highlights { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px; margin:12px 0 6px; }
+  .rz-card { background:linear-gradient(145deg,rgba(44,111,176,.10),rgba(44,111,176,.02));
+             border:1px solid rgba(44,111,176,.25); border-radius:12px; padding:14px 16px; }
+  .rz-card h4 { margin:0 0 6px; color:var(--acc2); font-size:1rem; }
+  .rz-card p { margin:0; font-size:.88rem; line-height:1.45; color:var(--mut); }
+  .rz-badges { margin-top:10px; display:flex; flex-wrap:wrap; gap:6px; }
+  .rz-badge { background:var(--acc); color:#fff; font-size:.78rem; font-weight:700;
+              padding:3px 9px; border-radius:20px; }
+
+  .rz-list { list-style:none; padding:0; margin:6px 0; }
+  .rz-list li { position:relative; padding-left:18px; margin-bottom:7px; font-size:.93rem; line-height:1.45; }
+  .rz-list li::before { content:'▸'; position:absolute; left:0; color:var(--acc); font-weight:700; }
+  .rz-list b { color:var(--acc2); }
+  .rz-list .m { color:var(--acc); font-weight:700; }
+
+  .rz-two { display:grid; grid-template-columns:1fr 1fr; gap:6px 24px; }
+  .rz-certs { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:8px; }
+  .rz-cert { font-size:.9rem; padding-left:16px; position:relative; }
+  .rz-cert::before { content:'✓'; position:absolute; left:0; color:var(--acc); font-weight:700; }
+  @media(max-width:600px){ .rz-two{grid-template-columns:1fr;} .rz-date{float:none;display:block;} }
+</style>
+
+<div class="rz">
+  <div class="rz-hero">
+    <h1>Dipankar Nath</h1>
+    <div class="role">Data Scientist / Decision Science Analyst</div>
+    <div class="rz-contact">
+      <span>📍 Kolkata, India</span>
+      <a href="mailto:dipankar2149@gmail.com">✉️ dipankar2149@gmail.com</a>
+      <span>📞 +91-9531248577</span>
+      <a href="https://github.com/Dip0607">GitHub</a>
+      <a href="https://linkedin.com/in/dipankarnath67/">LinkedIn</a>
+    </div>
+    <a class="rz-dl" href="/dipankar_nath_resume.pdf">📄 Download PDF Resume</a>
+  </div>
+
+  <h2>Professional Summary</h2>
+  <p class="rz-summary">Data Scientist with <b>3+ years</b> of experience building machine-learning,
+  large-language-model, and Generative-AI solutions in enterprise settings. Proven track record delivering
+  RAG applications, agentic AI systems, and business-intelligence platforms across
+  <b>finance, supply chain, and technology</b> — turning models into measurable business outcomes.</p>
+
+  <h2>Technical Skills</h2>
+  <div class="rz-skills">
+    <div class="rz-skill"><div class="k">Languages</div><div class="v">Python, PySpark, SQL</div></div>
+    <div class="rz-skill"><div class="k">AI / ML</div><div class="v">LLMs, RAG, Graph-RAG, Classification, LangChain, LlamaIndex, Semantic Kernel, AutoGen</div></div>
+    <div class="rz-skill"><div class="k">Cloud</div><div class="v">Azure (AI Search, OpenAI, Functions), Google Cloud (BigQuery)</div></div>
+    <div class="rz-skill"><div class="k">Visualization</div><div class="v">Looker, Qlik Sense, Power BI</div></div>
+    <div class="rz-skill"><div class="k">Databases</div><div class="v">PostgreSQL, BigQuery</div></div>
+    <div class="rz-skill"><div class="k">Dev Tools</div><div class="v">Git, Azure Repos/Boards, Jira, FastAPI, Flask</div></div>
+  </div>
+
+  <h2>Professional Experience</h2>
+  <div class="rz-job">Industrial &amp; Functional Decision Science Analyst <span class="rz-date">2022 – Present</span></div>
+  <div class="rz-co">Accenture Strategy &amp; Consulting (Global Network)</div>
+
+  <h4 style="color:var(--acc);margin:16px 0 4px;">★ Recent Highlights (2025)</h4>
+  <div class="rz-highlights">
+    <div class="rz-card">
+      <h4>SRE Agents</h4>
+      <p>Autonomous AI agents that triage incidents, correlate logs &amp; alerts, and suggest remediations.</p>
+      <div class="rz-badges"><span class="rz-badge">MTTR ↓ 80%</span><span class="rz-badge">−35 hrs/wk toil</span></div>
+    </div>
+    <div class="rz-card">
+      <h4>AI-Native SDLC</h4>
+      <p>AI-assisted spec → code → review → docs workflow embedded into the delivery lifecycle.</p>
+      <div class="rz-badges"><span class="rz-badge">80% faster delivery</span><span class="rz-badge">−60% review effort</span></div>
+    </div>
+    <div class="rz-card">
+      <h4>CodeWiki Bot (Graph-RAG)</h4>
+      <p>AI docs + chatbot over the codebase; auto-generates cross-repo dataflow &amp; architecture diagrams.</p>
+      <div class="rz-badges"><span class="rz-badge">12 repos</span><span class="rz-badge">12k+ docs</span><span class="rz-badge">−80% hunt time</span></div>
+    </div>
+  </div>
+
+  <h4 style="color:var(--acc);margin:16px 0 4px;">Key Projects &amp; Achievements</h4>
+  <ul class="rz-list">
+    <li>Built a <b>ServiceNow agentic bot</b> (LlamaIndex + OpenAI) for automated IT-ticket resolution, cutting manual intervention <span class="m">40%</span>.</li>
+    <li>Developed a <b>RAG-based finance application</b> with Azure AI Search and vector embeddings for contextual document querying.</li>
+    <li>Created a <b>synthetic-data generation pipeline</b> using NVIDIA Nemotron-4 340B, producing <span class="m">100,000+</span> privacy-preserving records at <span class="m">95%</span> statistical similarity.</li>
+    <li>Implemented an automated <b>code-converter tool</b> transforming legacy <code>.script</code> files to PySpark using Azure OpenAI + AutoGen.</li>
+    <li>Led cross-functional <b>proof-of-value</b> initiatives, presenting AI solutions to <b>C-suite</b> executives.</li>
+  </ul>
+
+  <h4 style="color:var(--acc);margin:16px 0 4px;">Additional Projects</h4>
+  <ul class="rz-list">
+    <li><b>Supply-Chain NL2SQL:</b> RAG chatbot on Azure Functions, reducing analyst query time <span class="m">60%</span>.</li>
+    <li><b>B2B Lead Scoring:</b> decision-tree classifier over <span class="m">11M+</span> firmographic records, improving conversion <span class="m">25%</span>.</li>
+    <li><b>Banking Capital Markets:</b> Qlik Sense KPI dashboards for trading volume &amp; market-liquidity analysis.</li>
+    <li><b>HR Analytics Platform:</b> 9 interactive Looker dashboards tracking attrition, hiring, and resource allocation.</li>
+  </ul>
+
+  <h2>Education</h2>
+  <div class="rz-two">
+    <div><b style="color:var(--acc2)">B.Tech, Civil Engineering</b><br>NIT Silchar · CGPA 8.1/10</div>
+    <div><b style="color:var(--acc2)">Higher Secondary</b><br>Board of Secondary Education, Assam · 86%</div>
+  </div>
+
+  <h2>Certifications</h2>
+  <div class="rz-certs">
+    <div class="rz-cert">Microsoft Azure AI Engineer Associate</div>
+    <div class="rz-cert">Microsoft Azure Data Scientist Associate</div>
+    <div class="rz-cert">Microsoft Azure Fundamentals</div>
+    <div class="rz-cert">Machine Learning with Python (IBM)</div>
+    <div class="rz-cert">RAG for Production (Activeloop)</div>
+    <div class="rz-cert">LLMOps Applications (Udacity)</div>
+    <div class="rz-cert">NVIDIA Deep Learning (neural networks &amp; GPU)</div>
+    <div class="rz-cert">Google Cloud Digital Leader</div>
+  </div>
+
+  <h2>Key Competencies</h2>
+  <div class="rz-skills">
+    <div class="rz-skill"><div class="k">ML Expertise</div><div class="v">Supervised/unsupervised learning, model optimization, feature engineering</div></div>
+    <div class="rz-skill"><div class="k">Deep Learning</div><div class="v">Neural networks, transformers, modern AI architectures</div></div>
+    <div class="rz-skill"><div class="k">Analytical Excellence</div><div class="v">Complex data analysis into actionable insights</div></div>
+  </div>
+</div>
