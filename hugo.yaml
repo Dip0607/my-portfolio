@@ -12,17 +12,18 @@ params:
   homeInfoParams:
     Title: "Dipankar Nath"
     Content: >
-      Data Scientist & Analyst. I build business-intelligence solutions,
-      machine-learning models, and LLM-powered tools. This is my resume +
-      tech blog — notes on data science, AI, and things I build.
+      Data Scientist with 3+ years building machine-learning, LLM, and
+      Generative-AI solutions across finance, supply chain, and tech.
+      This is my resume + tech blog — notes on data science, AI, and
+      things I build.
 
   socialIcons:
     - name: github
-      url: "https://github.com/YOUR_USERNAME"
+      url: "https://github.com/Dip0607"
     - name: linkedin
-      url: "https://www.linkedin.com/in/YOUR_PROFILE"
+      url: "https://www.linkedin.com/in/dipankarnath67/"
     - name: email
-      url: "mailto:you@example.com"
+      url: "mailto:dipankar2149@gmail.com"
 
   ShowReadingTime: true
   ShowShareButtons: true
