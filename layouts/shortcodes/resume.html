@@ -62,16 +62,19 @@
   </div>
 
   <h2>Professional Summary</h2>
-  <p class="rz-summary">Data Scientist with <b>4 years</b> of experience building machine-learning,
-  large-language-model, and Generative-AI solutions in enterprise settings. Proven track record delivering
-  RAG applications, agentic AI systems, and business-intelligence platforms across
-  <b>finance, supply chain, and technology</b> — turning models into measurable business outcomes.</p>
+  <p class="rz-summary">GenAI Engineer &amp; Data Scientist with <b>4 years</b> of experience building and
+  shipping <b>production LLM, RAG, and agentic-AI systems</b> in enterprise settings. Owned end-to-end
+  delivery of a production RAG finance assistant, an org-wide AI-native SDLC framework, and a
+  single-handedly-built agentic ServiceNow bot. Deep hands-on Azure AI stack (AI Search, OpenAI, Functions),
+  multi-agent orchestration (Semantic Kernel, AutoGen), and Graph-RAG — turning GenAI into measurable
+  business outcomes across <b>finance, supply chain, and engineering</b>.</p>
 
   <h2>Technical Skills</h2>
   <div class="rz-skills">
     <div class="rz-skill"><div class="k">Languages</div><div class="v">Python, PySpark, SQL</div></div>
-    <div class="rz-skill"><div class="k">AI / ML</div><div class="v">Agentic AI, LLMs, RAG, Graph-RAG, AI-Native SDLC, Context &amp; Loop Engineering, AI Solution Architecture, LangChain, LlamaIndex, Semantic Kernel, AutoGen</div></div>
-    <div class="rz-skill"><div class="k">Cloud</div><div class="v">Azure (AI Search, OpenAI, Functions), Google Cloud (BigQuery)</div></div>
+    <div class="rz-skill"><div class="k">GenAI / ML</div><div class="v">Agentic AI, LLMs, RAG, Graph-RAG, Prompt Engineering, AI-Native SDLC, Multi-Agent Orchestration, Semantic Kernel, AutoGen, LangChain, LlamaIndex, Classification</div></div>
+    <div class="rz-skill"><div class="k">AI Tooling</div><div class="v">Azure AI Search, Azure OpenAI, GitHub Copilot, unstructured, Tree-sitter (AST), NVIDIA Nemotron, vector DBs</div></div>
+    <div class="rz-skill"><div class="k">Cloud</div><div class="v">Azure (AI Search, OpenAI, Durable Functions), Google Cloud (BigQuery)</div></div>
     <div class="rz-skill"><div class="k">Visualization</div><div class="v">Looker, Qlik Sense, Power BI</div></div>
     <div class="rz-skill"><div class="k">Databases</div><div class="v">PostgreSQL, BigQuery</div></div>
     <div class="rz-skill"><div class="k">Dev Tools</div><div class="v">Git, Azure Repos/Boards, Jira, FastAPI, Flask</div></div>
@@ -81,40 +84,39 @@
   <div class="rz-job">Industrial &amp; Functional Decision Science Analyst <span class="rz-date">2022 – Present</span></div>
   <div class="rz-co">Accenture Strategy &amp; Consulting (Global Network)</div>
 
-  <h4 style="color:var(--acc);margin:16px 0 4px;">★ Recent Highlights (2026)</h4>
+  <h4 style="color:var(--acc);margin:16px 0 4px;">★ Flagship GenAI Projects</h4>
   <div class="rz-highlights">
     <div class="rz-card">
-      <h4>SRE Agents</h4>
-      <p>Autonomous AI agents that triage incidents, correlate logs &amp; alerts, and suggest remediations.</p>
-      <div class="rz-badges"><span class="rz-badge">MTTR ↓ 80%</span><span class="rz-badge">−35 hrs/wk toil</span></div>
+      <h4>RAG Finance Application</h4>
+      <p>Production RAG assistant over 1–2k internal finance documents (reports, contracts, compliance) for natural-language Q&amp;A and search. Built the full Python pipeline — ingestion → <code>unstructured</code> chunking → embeddings → retrieval — on Azure AI Search + Azure OpenAI.</p>
+      <div class="rz-badges"><span class="rz-badge">~90% accuracy</span><span class="rz-badge">Production</span><span class="rz-badge">Firm-wide adoption</span></div>
     </div>
     <div class="rz-card">
-      <h4>AI-Native SDLC</h4>
-      <p>AI-assisted spec → code → review → docs workflow embedded into the delivery lifecycle.</p>
-      <div class="rz-badges"><span class="rz-badge">80% faster delivery</span><span class="rz-badge">−60% review effort</span></div>
+      <h4>AI-Native SDLC Framework</h4>
+      <p>Org-wide brownfield AI-development framework: builds a reusable context layer (domain, code-mapping, patterns, guardrails, hooks), enforces TDD, runs multi-agent code review, and auto-creates PRs — powered by GitHub Copilot.</p>
+      <div class="rz-badges"><span class="rz-badge">~80% faster dev</span><span class="rz-badge">Org-wide rollout</span></div>
     </div>
     <div class="rz-card">
-      <h4>CodeWiki Bot (Graph-RAG)</h4>
-      <p>AI docs + chatbot over the codebase; auto-generates cross-repo dataflow &amp; architecture diagrams.</p>
-      <div class="rz-badges"><span class="rz-badge">12 repos</span><span class="rz-badge">12k+ docs</span><span class="rz-badge">−80% hunt time</span></div>
+      <h4>ServiceNow Agentic Bot</h4>
+      <p>Built single-handedly: an agentic IT-support system on Semantic Kernel + Azure OpenAI with a vector-indexed KB and SQL incident store. Interprets tickets, auto-resolves routine ones (password resets, access), escalates the rest.</p>
+      <div class="rz-badges"><span class="rz-badge">50–60 tickets/wk</span><span class="rz-badge">30–35 hrs/wk saved</span><span class="rz-badge">End-to-end owner</span></div>
     </div>
   </div>
 
-  <h4 style="color:var(--acc);margin:16px 0 4px;">Key Projects &amp; Achievements</h4>
+  <h4 style="color:var(--acc);margin:16px 0 4px;">Additional GenAI &amp; ML Projects</h4>
   <ul class="rz-list">
-    <li>Built a <b>ServiceNow agentic bot</b> (LlamaIndex + OpenAI) for automated IT-ticket resolution, cutting manual intervention <span class="m">40%</span>.</li>
-    <li>Developed a <b>RAG-based finance application</b> with Azure AI Search and vector embeddings for contextual document querying.</li>
-    <li>Created a <b>synthetic-data generation pipeline</b> using NVIDIA Nemotron-4 340B, producing <span class="m">100,000+</span> privacy-preserving records at <span class="m">95%</span> statistical similarity.</li>
-    <li>Implemented an automated <b>code-converter tool</b> transforming legacy <code>.script</code> files to PySpark using Azure OpenAI + AutoGen.</li>
-    <li>Led cross-functional <b>proof-of-value</b> initiatives, presenting AI solutions to <b>C-suite</b> executives.</li>
+    <li><b>CodeWiki Bot (Graph-RAG):</b> converted an entire codebase into a Graph-RAG knowledge graph via AST parsing (Tree-sitter); powers a chatbot, automatic documentation, architecture-diagram generation, and a bug finder. Standalone, end-to-end.</li>
+    <li><b>SRE Agents (next-gen reliability):</b> configured &amp; deployed Microsoft's Azure SRE-Agent for specific teams — autonomous incident triage with broad connector support — as the follow-on to the ServiceNow bot. MTTR <span class="m">↓ ~80%</span>.</li>
+    <li><b>Legacy Code Converter:</b> a sequential <b>swarm of AutoGen agents</b> (Azure OpenAI) converting <span class="m">~400</span> legacy <code>.script</code> files to PySpark with auto-docs — replacing <span class="m">~1 month</span> of manual work. Standalone, end-to-end.</li>
+    <li><b>AI Test-Case Generator:</b> GenAI tool generating maximal test cases directly from BRDs — saving <span class="m">50–60 hrs</span> of manual test-case writing per cycle.</li>
+    <li><b>Synthetic Data for Finance:</b> pipeline using NVIDIA Nemotron-4 340B on Azure Durable Functions producing <span class="m">100,000+</span> privacy-preserving records at <span class="m">95%</span> statistical similarity to train an SLM.</li>
+    <li><b>Supply-Chain Insights Chatbot (POC):</b> Azure-OpenAI GPT chatbot for business-data insights with metadata-driven query generation on a Python/FastAPI RAG backend — a client-facing proof of concept.</li>
   </ul>
 
-  <h4 style="color:var(--acc);margin:16px 0 4px;">Additional Projects</h4>
+  <h4 style="color:var(--acc);margin:16px 0 4px;">Earlier Data-Science Engagements</h4>
   <ul class="rz-list">
-    <li><b>Supply-Chain NL2SQL:</b> RAG chatbot on Azure Functions, reducing analyst query time <span class="m">60%</span>.</li>
-    <li><b>B2B Lead Scoring:</b> decision-tree classifier over <span class="m">11M+</span> firmographic records, improving conversion <span class="m">25%</span>.</li>
-    <li><b>Banking Capital Markets:</b> Qlik Sense KPI dashboards for trading volume &amp; market-liquidity analysis.</li>
-    <li><b>HR Analytics Platform:</b> 9 interactive Looker dashboards tracking attrition, hiring, and resource allocation.</li>
+    <li><b>B2B Lead Generation (Marriott):</b> analyzed <span class="m">11M+</span> small/mid-business records; ran EDA and engineered features for a lead-classification model.</li>
+    <li><b>CMA Digital Transformation — Saudi Central Bank:</b> built interactive Qlik Sense dashboards, optimized data scripts, and integrated data sources.</li>
   </ul>
 
   <h2>Education</h2>
