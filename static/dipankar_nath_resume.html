@@ -58,8 +58,8 @@
     <h2>Technical Skills</h2>
     <table class="skills">
       <tr><td class="k">Languages</td><td>Python, PySpark, SQL</td></tr>
-      <tr><td class="k">GenAI / ML</td><td>Agentic AI, LLMs, RAG, Graph-RAG, Prompt Engineering, AI-Native SDLC, Multi-Agent Orchestration, Semantic Kernel, AutoGen, LangChain, LlamaIndex, Classification, Model Training</td></tr>
-      <tr><td class="k">AI Tooling</td><td>Azure AI Search, Azure OpenAI, GitHub Copilot, unstructured, Tree-sitter (AST), NVIDIA Nemotron, vector databases</td></tr>
+      <tr><td class="k">GenAI / ML</td><td>Agentic AI, LLMs, RAG, Graph-RAG, Prompt Engineering, LLM Fine-tuning (LoRA/QLoRA), SLMs (Phi-3), AI-Native SDLC, Multi-Agent Orchestration, Semantic Kernel, AutoGen, LangChain, LlamaIndex, Classification</td></tr>
+      <tr><td class="k">AI Tooling</td><td>Azure AI Search, Azure OpenAI, Azure ML, Azure AI Foundry, GitHub Copilot, Hugging Face, unstructured, Tree-sitter (AST), NVIDIA Nemotron, vector databases</td></tr>
       <tr><td class="k">Cloud &amp; Data</td><td>Microsoft Azure (AI Search, OpenAI, Durable Functions), Google Cloud (BigQuery), PostgreSQL, SQL</td></tr>
       <tr><td class="k">Visualization</td><td>Looker, Qlik Sense, Power BI</td></tr>
       <tr><td class="k">Databases</td><td>PostgreSQL, BigQuery</td></tr>
@@ -85,7 +85,7 @@
       <li><b>SRE Agents (next-gen reliability):</b> configured and deployed Microsoft's Azure SRE-Agent for specific teams — an autonomous incident-triage system with broad connector support — as the follow-on to the ServiceNow bot. Reduced MTTR by <span class="metric">~80%</span>.</li>
       <li><b>Legacy Code Converter:</b> built a sequential <b>swarm of AutoGen agents</b> (Azure OpenAI) that converted <span class="metric">~400</span> legacy <code>.script</code> files to PySpark with auto-generated docs — replacing <span class="metric">~1 month</span> of manual work. Standalone, end-to-end.</li>
       <li><b>AI Test-Case Generator:</b> GenAI tool that generates maximal test cases directly from BRDs, saving <span class="metric">50–60 hrs</span> of manual test-case writing per cycle.</li>
-      <li><b>Synthetic Data for Finance:</b> pipeline using NVIDIA Nemotron-4 340B on Azure Durable Functions producing <span class="metric">100,000+</span> privacy-preserving records at <span class="metric">95%</span> statistical similarity to train an SLM.</li>
+      <li><b>Synthetic Data + Phi-3 SLM Fine-tuning (Finance):</b> a two-stage privacy-first pipeline — first generated <span class="metric">100,000+</span> synthetic financial records at <span class="metric">95%</span> statistical similarity using NVIDIA Nemotron-4 340B on Azure Durable Functions, then <b>fine-tuned Microsoft Phi-3-mini (LoRA on Azure ML)</b> on that data to create a private, domain-expert small language model for finance Q&amp;A — chosen over a large LLM for data privacy, lower training/inference cost, and deep domain knowledge. Deployed to <b>Azure AI Foundry</b>.</li>
       <li><b>Supply-Chain Insights Chatbot (POC):</b> Azure-OpenAI GPT chatbot for business-data insights with metadata-driven query generation on a Python/FastAPI RAG backend — built as a client-facing proof of concept.</li>
     </ul>
 
